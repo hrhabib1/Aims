@@ -1,8 +1,8 @@
 .body{
-    background-color: rgba(0, 0, 0, 0.12);
+    background-color: rgb(255, 243, 243)
 }
 .navbar{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     height: 90px;
     width: 1400px;
     margin: auto;
@@ -27,11 +27,52 @@
     color: rgba(248, 70, 97, 1);
     font-size: large;
 }
-.navbar button{
-    height: 46px;
-    width: 130px;
+.join{
     background-color: rgba(252, 168, 0, 1);
     color: white;
     border: none;
+}
+button{
+    height: 46px;
+    width: 130px;
+    background-color:rgb(255, 255, 255);
+    color: rgba(248, 70, 97, 1);
     border-radius:4px ;
+}
+.headCard{
+    width: 1400px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headCardText{
+    width: 629px;
+    height: 459px;
+}
+.headCardText h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+.headCardText p{
+    font-size: 20px;
+}
+#brands{
+    color: rgba(252, 168, 0, 1);
+}
+#influencers{
+color: rgba(248, 70, 97, 1);
+}
+.btn{
+    margin-left: 20px;
+}
+.btn button{
+    margin-right: 20px;
+}
+.topCard{
+    height: 1100px;
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
 }
