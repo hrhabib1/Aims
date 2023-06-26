@@ -72,7 +72,53 @@ color: rgba(248, 70, 97, 1);
 }
 .topCard{
     height: 1100px;
-    width: 100%;
     padding: 50px;
     background-color: rgb(255, 255, 255);
+}
+.middlePart{
+    height: 680px;
+    padding: 50px;
+}
+.bt{
+    text-align: center;
+}
+.middlePart h1{
+    font-size: 72px;
+    font-weight: 400;
+}
+#aim{
+    font-weight: bold;
+}
+.workCard, .comment{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.workCard div{
+    padding: 5px;
+}
+h3{
+    font-size: 32px;
+    font-weight: 700px;
+}
+.workCard p{
+    font-size: 18px;
+}
+.comment{
+    height: 510px;
+    background-color: rgb(245, 233, 233);
+    padding: 50px;
+}
+.cmt div{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.cmt h1{
+    margin-top: 120px;
 }
