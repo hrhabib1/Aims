@@ -1,0 +1,29 @@
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+.signup img{
+    height: 600px;
+}
+.formSection{
+    height:600px;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    text-align: center;
+    padding: 50px;
+}
+.formSection h1{
+    margin-bottom: 200px;
+}
+.formSection button{
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(52, 186, 186);
+}
