@@ -15,15 +15,80 @@
     text-align: center;
     padding: 50px;
 }
-.formSection h1{
-    margin-bottom: 200px;
+.signinup{
+    margin-bottom: 100px;
 }
-.formSection button{
+.formSection .b1{
     height: 50px;
     width: 500px;
     border-radius: 8px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: none;
     color: white;
     background-color: rgb(52, 186, 186);
+}
+.formSection h1{
+font-size: 32;
+font-weight: bold;
+}
+#span{
+    color: rgba(252, 168, 0, 1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+form input, .b2{
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-left:20px ;
+}
+.b2{
+    height: 50px;
+    width: 500px;
+    border: none;
+    color: white;
+    background-color:  rgb(252, 113, 0);
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.t, #span1, .a{
+    color: rgba(248, 70, 97, 1);
+}
+.a{
+    text-decoration: none;
+}
+.b3{
+    height: 50px;
+    width: 250px;
+    border: none;
+    color: rgb(43, 42, 42);
+    background-color: rgb(240, 248, 255);
+    border-radius: 8px;
+    margin: 20px;
+    margin-top: 20px;
+}
+.line{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.o{
+    width: 250px;
+    height: 1px;
+    margin-top: 25px;
+}
+.b{
+    text-align: end;
+    margin-right: 75px;
+    margin-top: 10px;
 }
