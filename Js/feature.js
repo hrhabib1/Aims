@@ -1,8 +1,8 @@
 const loadFeature = async(feature) => {
-    const url = `/Json/feature.json`
+    const url = `http://localhost:5000/influencers`
     const res = await fetch(url);
     const data = await res.json();
-    displayfeatures(data.feature);
+    displayfeatures(data);
 
 }
 const displayfeatures = features =>{

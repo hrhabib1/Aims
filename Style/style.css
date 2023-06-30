@@ -74,7 +74,9 @@ color: rgba(248, 70, 97, 1);
 }
 .topCard{
     height: 1000px;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     background-color: rgb(230, 224, 224);
 }
 .middlePart{
@@ -188,16 +190,16 @@ footer{
     overflow: hidden;
 }
 .card{
-    width: 450px;
+    width: 400px;
     height: 600px;
     border-radius: 48px;
     background-color:rgb(255, 254, 254);
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 .card img{
     height: 340px;
-    margin-left: 15px;
+   margin: auto;
 }
 .top{
     display: flex;
