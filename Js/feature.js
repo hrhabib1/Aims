@@ -1,5 +1,5 @@
 const loadFeature = async(feature) => {
-    const url = `http://localhost:5000/influencers`
+    const url = `https://aims-server-0ca7.onrender.com/influencers`
     const res = await fetch(url);
     const data = await res.json();
     displayfeatures(data);
